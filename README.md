@@ -1,2 +1,2 @@
-# isolated_rp2040_debugger
-Like the original Raspberry Pi Pico debug probe but with an isolated PC-Interface.
+# ultimate_rp2040_debugger
+Galvanically isolated debugger/programmer for RP2040 projects with power supply
