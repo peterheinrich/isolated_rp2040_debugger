@@ -139,7 +139,7 @@ Files provided in this repository:
 ## License
 
 ### This repository
-Hardware design files in this repository are released under the CERN-OHL-S v2 (or choose your preferred open hardware license).
+Hardware design files in this repository are released under the CERN-OHL-S v2.
 
 ### Raspberry Pi materials
 Portions of the information (such as pinout descriptions) are derived from Raspberry Pi documentation, which is licensed under Creative Commons.
