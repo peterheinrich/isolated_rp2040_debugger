@@ -67,7 +67,6 @@ This design introduces galvanic isolation between the USB host and the target in
 - USB CDC UART bridge
 - Full USB isolation
 - Isolated target power domain
-- Protection against negative voltages and ground offsets
 - Drop-in compatible with existing Raspberry Pi Debug Probe software
 
 ---
