@@ -1,6 +1,8 @@
 # STATUS: First Prototype in Production
 This design is currently untested ...
 
+<img src="doc/production_rendering.png" width="800" />
+
 # Isolated RP2040 Debug Probe
 
 An electrically isolated CMSIS-DAP debug probe based on the Raspberry Pi Debug Probe design, with full USB galvanic isolation for improved safety and robustness when debugging embedded hardware.
