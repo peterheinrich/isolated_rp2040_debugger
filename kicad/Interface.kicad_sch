@@ -1621,12 +1621,6 @@
 		(uuid "a01772a9-93c8-489f-a86b-aefe695a2471")
 	)
 	(junction
-		(at 218.44 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f7465930-32b8-4773-9d91-b79bfaf80d7f")
-	)
-	(junction
 		(at 218.44 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1644,23 +1638,23 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 82.55) (xy 218.44 85.09)
+			(xy 66.04 152.4) (xy 73.66 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1224d2af-62de-41c0-bcf5-79b23a389564")
+		(uuid "13d84173-1ec2-4946-8320-088ff8a1ad71")
 	)
 	(wire
 		(pts
-			(xy 58.42 52.07) (xy 73.66 52.07)
+			(xy 50.8 115.57) (xy 58.42 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1745909c-8768-4c80-bb88-69bfd782c25c")
+		(uuid "20cf12ad-4439-481f-bd81-16c0cf9e4514")
 	)
 	(wire
 		(pts
@@ -1724,16 +1718,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 121.92) (xy 110.49 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4654915d-7409-4450-b4fa-5b7491be6906")
-	)
-	(wire
-		(pts
 			(xy 95.25 140.97) (xy 102.87 140.97)
 		)
 		(stroke
@@ -1784,7 +1768,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 121.92) (xy 76.2 121.92)
+			(xy 66.04 121.92) (xy 76.2 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1794,7 +1778,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 58.42) (xy 76.2 58.42)
+			(xy 66.04 58.42) (xy 76.2 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1844,17 +1828,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 115.57) (xy 73.66 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "721a886f-dc32-4cff-9e25-4e5fb7e926d9")
-	)
-	(wire
-		(pts
-			(xy 58.42 121.92) (xy 66.04 121.92)
+			(xy 50.8 121.92) (xy 58.42 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1894,16 +1868,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 58.42) (xy 110.49 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a8bf896-46b5-4677-af4a-3029a9ffa2ca")
-	)
-	(wire
-		(pts
 			(xy 193.04 82.55) (xy 198.12 82.55)
 		)
 		(stroke
@@ -1931,6 +1895,16 @@
 			(type default)
 		)
 		(uuid "967679aa-3f18-48e0-9c3f-50a0d78ea8b9")
+	)
+	(wire
+		(pts
+			(xy 102.87 121.92) (xy 118.11 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9746b2e3-7cdf-4475-9c5c-d7ba89babbc8")
 	)
 	(wire
 		(pts
@@ -1981,6 +1955,16 @@
 			(type default)
 		)
 		(uuid "a47e202f-0386-4b1f-852c-a76f2bce8f03")
+	)
+	(wire
+		(pts
+			(xy 66.04 52.07) (xy 73.66 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4cb194e-2b52-4e42-b30b-a9af1a3c302d")
 	)
 	(wire
 		(pts
@@ -2084,6 +2068,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 115.57) (xy 73.66 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf7ee19f-45c7-4456-a3d7-242c50744179")
+	)
+	(wire
+		(pts
 			(xy 187.96 87.63) (xy 198.12 87.63)
 		)
 		(stroke
@@ -2091,6 +2085,16 @@
 			(type default)
 		)
 		(uuid "cfeb8895-b0d9-4d8e-93af-ad83af31cd4e")
+	)
+	(wire
+		(pts
+			(xy 50.8 152.4) (xy 58.42 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d430183e-a1e6-442e-ba24-45c6c91ebb28")
 	)
 	(wire
 		(pts
@@ -2104,7 +2108,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 58.42) (xy 66.04 58.42)
+			(xy 50.8 58.42) (xy 58.42 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2134,7 +2138,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 140.97) (xy 87.63 140.97)
+			(xy 50.8 140.97) (xy 87.63 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2154,6 +2158,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 58.42) (xy 118.11 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3df7eb4-5027-4a9c-ba75-2c13307cac0b")
+	)
+	(wire
+		(pts
 			(xy 193.04 68.58) (xy 193.04 62.23)
 		)
 		(stroke
@@ -2161,6 +2175,16 @@
 			(type default)
 		)
 		(uuid "f4b131be-e3e1-4983-a0fa-7ddc0c1594af")
+	)
+	(wire
+		(pts
+			(xy 50.8 52.07) (xy 58.42 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f84b3027-1a32-4c6f-a9aa-155b0f4aa858")
 	)
 	(wire
 		(pts
@@ -2174,7 +2198,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 77.47) (xy 87.63 77.47)
+			(xy 50.8 77.47) (xy 87.63 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2202,6 +2226,16 @@
 		)
 		(uuid "0152ca88-5793-4629-a622-e3a72a94b2c4")
 	)
+	(label "RESET"
+		(at 73.66 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2a2d1f22-2131-412c-b0bc-b7835ccf467a")
+	)
 	(label "SWCLK"
 		(at 73.66 115.57 180)
 		(effects
@@ -2222,8 +2256,18 @@
 		)
 		(uuid "6b5f2cd6-7b3d-4610-ba1d-d228ca575408")
 	)
+	(label "RESET"
+		(at 218.44 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "904dfc5e-e19a-49d9-b694-2e59149afdf4")
+	)
 	(label "UART_RX"
-		(at 110.49 58.42 180)
+		(at 118.11 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2253,7 +2297,7 @@
 		(uuid "bbb75fdb-c035-4142-b56b-475dd85fb1bf")
 	)
 	(label "SWDIO"
-		(at 110.49 121.92 180)
+		(at 118.11 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2274,7 +2318,7 @@
 	)
 	(hierarchical_label "UART0_RX"
 		(shape output)
-		(at 58.42 121.92 180)
+		(at 50.8 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2283,9 +2327,20 @@
 		)
 		(uuid "063e5a69-3c2c-4c19-a607-cb2fc41fac16")
 	)
+	(hierarchical_label "TGT_RST"
+		(shape input)
+		(at 50.8 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "11d0d9c7-aa2e-4e38-8281-088bda1ebe06")
+	)
 	(hierarchical_label "UART1_TX"
 		(shape input)
-		(at 58.42 52.07 180)
+		(at 50.8 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2296,7 +2351,7 @@
 	)
 	(hierarchical_label "UART1_RX"
 		(shape output)
-		(at 58.42 58.42 180)
+		(at 50.8 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2307,7 +2362,7 @@
 	)
 	(hierarchical_label "GPIO6"
 		(shape bidirectional)
-		(at 58.42 77.47 180)
+		(at 50.8 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2318,7 +2373,7 @@
 	)
 	(hierarchical_label "UART0_TX"
 		(shape input)
-		(at 58.42 115.57 180)
+		(at 50.8 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2329,7 +2384,7 @@
 	)
 	(hierarchical_label "GPIO14"
 		(shape bidirectional)
-		(at 58.42 140.97 180)
+		(at 50.8 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2543,6 +2598,127 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 62.23 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ea6a99a-fbd5-4143-82a2-81ab7dd42c27")
+		(property "Reference" "R17"
+			(at 62.23 113.538 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 62.23 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 62.23 117.348 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 62.23 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 62.23 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 62.23 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 62.23 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 62.23 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22775"
+			(at 62.23 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN_LCSC" "0603WAF1000T5E"
+			(at 62.23 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c62b6b2e-21c3-4e65-9661-7411d3c82d77")
+		)
+		(pin "2"
+			(uuid "bc6c21f1-c469-4d87-a412-ff84913cf5b2")
+		)
+		(instances
+			(project "isolated_rp2040_debugger"
+				(path "/accec76c-f5c4-4bf8-be45-530a8e5bdaad/354a7050-ba47-46d5-a4cf-bba7f8e16b36"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 91.44 68.58 0)
 		(unit 1)
@@ -2602,6 +2778,127 @@
 			(project ""
 				(path "/accec76c-f5c4-4bf8-be45-530a8e5bdaad/354a7050-ba47-46d5-a4cf-bba7f8e16b36"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 62.23 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20e1b213-85c4-43fc-85ed-f874954ffe64")
+		(property "Reference" "R16"
+			(at 62.23 50.038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 62.23 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 62.23 53.848 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 62.23 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 62.23 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 62.23 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 62.23 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 62.23 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22775"
+			(at 62.23 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN_LCSC" "0603WAF1000T5E"
+			(at 62.23 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1047980d-815b-400a-9d1c-5dbfb36c7582")
+		)
+		(pin "2"
+			(uuid "cb1459ca-59c7-429a-befa-45fff848756f")
+		)
+		(instances
+			(project "isolated_rp2040_debugger"
+				(path "/accec76c-f5c4-4bf8-be45-530a8e5bdaad/354a7050-ba47-46d5-a4cf-bba7f8e16b36"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -3412,7 +3709,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 69.85 121.92 90)
+		(at 62.23 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3420,7 +3717,7 @@
 		(dnp no)
 		(uuid "6af9d811-6517-45c1-84e5-7ce0d34ff8ca")
 		(property "Reference" "R14"
-			(at 69.85 119.888 90)
+			(at 62.23 119.888 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3428,7 +3725,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 69.85 121.92 90)
+			(at 62.23 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3436,7 +3733,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 69.85 123.698 90)
+			(at 62.23 123.698 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3445,7 +3742,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 121.92 0)
+			(at 62.23 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3454,7 +3751,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 69.85 121.92 0)
+			(at 62.23 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3463,7 +3760,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 69.85 121.92 90)
+			(at 62.23 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3472,7 +3769,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 69.85 121.92 90)
+			(at 62.23 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3481,7 +3778,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 69.85 121.92 90)
+			(at 62.23 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3490,7 +3787,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 69.85 121.92 90)
+			(at 62.23 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3499,7 +3796,7 @@
 			)
 		)
 		(property "LCSC" "C1203"
-			(at 69.85 121.92 90)
+			(at 62.23 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3508,7 +3805,7 @@
 			)
 		)
 		(property "MPN_LCSC" "0603WAJ0220T5E"
-			(at 69.85 121.92 90)
+			(at 62.23 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3909,6 +4206,127 @@
 			(project "isolated_rp2040_debugger"
 				(path "/accec76c-f5c4-4bf8-be45-530a8e5bdaad/354a7050-ba47-46d5-a4cf-bba7f8e16b36"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 62.23 152.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb2cecf2-abe4-4adc-908e-9f3f3c31e106")
+		(property "Reference" "R18"
+			(at 62.23 150.368 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 62.23 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 62.23 154.178 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 62.23 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 62.23 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 62.23 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 62.23 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 62.23 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22775"
+			(at 62.23 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN_LCSC" "0603WAF1000T5E"
+			(at 62.23 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d80cb42-f0d6-4090-b620-4c5a2f52f730")
+		)
+		(pin "2"
+			(uuid "29324c02-1467-44e0-9308-045fbad79f9f")
+		)
+		(instances
+			(project "isolated_rp2040_debugger"
+				(path "/accec76c-f5c4-4bf8-be45-530a8e5bdaad/354a7050-ba47-46d5-a4cf-bba7f8e16b36"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -4597,7 +5015,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 69.85 58.42 90)
+		(at 62.23 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4605,7 +5023,7 @@
 		(dnp no)
 		(uuid "fced3ba1-616c-4759-bd2b-148845c7f215")
 		(property "Reference" "R13"
-			(at 69.85 56.388 90)
+			(at 62.23 56.388 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4613,7 +5031,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 69.85 58.42 90)
+			(at 62.23 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4621,7 +5039,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 69.85 60.198 90)
+			(at 62.23 60.198 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4630,7 +5048,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 58.42 0)
+			(at 62.23 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4639,7 +5057,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 69.85 58.42 0)
+			(at 62.23 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4648,7 +5066,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 69.85 58.42 90)
+			(at 62.23 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4657,7 +5075,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 69.85 58.42 90)
+			(at 62.23 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4666,7 +5084,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 69.85 58.42 90)
+			(at 62.23 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4675,7 +5093,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 69.85 58.42 90)
+			(at 62.23 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4684,7 +5102,7 @@
 			)
 		)
 		(property "LCSC" "C1203"
-			(at 69.85 58.42 90)
+			(at 62.23 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4693,7 +5111,7 @@
 			)
 		)
 		(property "MPN_LCSC" "0603WAJ0220T5E"
-			(at 69.85 58.42 90)
+			(at 62.23 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)

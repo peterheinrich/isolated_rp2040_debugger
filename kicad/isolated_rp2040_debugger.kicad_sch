@@ -91,7 +91,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 64.77) (xy 119.38 64.77)
+			(xy 157.48 64.77) (xy 163.83 64.77)
 		)
 		(stroke
 			(width 0)
@@ -101,7 +101,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 80.01) (xy 119.38 80.01)
+			(xy 157.48 80.01) (xy 163.83 80.01)
 		)
 		(stroke
 			(width 0)
@@ -111,7 +111,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 69.85) (xy 119.38 69.85)
+			(xy 157.48 69.85) (xy 163.83 69.85)
 		)
 		(stroke
 			(width 0)
@@ -121,7 +121,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 67.31) (xy 119.38 67.31)
+			(xy 157.48 67.31) (xy 163.83 67.31)
 		)
 		(stroke
 			(width 0)
@@ -131,17 +131,17 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 64.77) (xy 80.01 64.77)
+			(xy 119.38 66.04) (xy 124.46 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5eeeff5f-6581-4837-9ab2-56a517ba3b12")
+		(uuid "5ceb61dc-19b3-403b-a1d6-cebb11b5f90f")
 	)
 	(wire
 		(pts
-			(xy 113.03 74.93) (xy 119.38 74.93)
+			(xy 157.48 74.93) (xy 163.83 74.93)
 		)
 		(stroke
 			(width 0)
@@ -151,7 +151,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 77.47) (xy 119.38 77.47)
+			(xy 157.48 77.47) (xy 163.83 77.47)
 		)
 		(stroke
 			(width 0)
@@ -161,13 +161,33 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 67.31) (xy 80.01 67.31)
+			(xy 73.66 63.5) (xy 81.28 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e9a5e0e7-522a-4202-b998-9407c1516a81")
+		(uuid "99b92568-b50f-487a-a446-a177d0b856e7")
+	)
+	(wire
+		(pts
+			(xy 73.66 66.04) (xy 81.28 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb6136ad-33b2-4ef5-a93c-14d98c95e639")
+	)
+	(wire
+		(pts
+			(xy 119.38 63.5) (xy 124.46 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbbb068d-230c-4cb5-aff8-3649aebdebb6")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -418,7 +438,7 @@
 		)
 	)
 	(sheet
-		(at 119.38 60.96)
+		(at 163.83 60.96)
 		(size 33.02 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -434,7 +454,7 @@
 		)
 		(uuid "354a7050-ba47-46d5-a4cf-bba7f8e16b36")
 		(property "Sheetname" "Interface"
-			(at 119.38 60.2484 0)
+			(at 163.83 60.2484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -443,7 +463,7 @@
 			)
 		)
 		(property "Sheetfile" "Interface.kicad_sch"
-			(at 119.38 95.8346 0)
+			(at 163.83 95.8346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -452,7 +472,7 @@
 			)
 		)
 		(pin "UART0_RX" output
-			(at 119.38 64.77 180)
+			(at 163.83 64.77 180)
 			(uuid "9ab0537b-11d8-4f05-8a9b-4834dc28a60f")
 			(effects
 				(font
@@ -462,7 +482,7 @@
 			)
 		)
 		(pin "GPIO6" bidirectional
-			(at 119.38 80.01 180)
+			(at 163.83 80.01 180)
 			(uuid "9c1c1dd3-e6f0-4efd-9d72-117432b70986")
 			(effects
 				(font
@@ -472,7 +492,7 @@
 			)
 		)
 		(pin "UART1_RX" output
-			(at 119.38 74.93 180)
+			(at 163.83 74.93 180)
 			(uuid "fa1c4cec-8134-43e3-8f55-adff19552bd3")
 			(effects
 				(font
@@ -482,7 +502,7 @@
 			)
 		)
 		(pin "UART1_TX" input
-			(at 119.38 77.47 180)
+			(at 163.83 77.47 180)
 			(uuid "5af40c7e-982d-4c51-a348-f50d14b112de")
 			(effects
 				(font
@@ -492,7 +512,7 @@
 			)
 		)
 		(pin "GPIO14" bidirectional
-			(at 119.38 69.85 180)
+			(at 163.83 69.85 180)
 			(uuid "30a27270-5771-4fd1-85f2-0345983c8016")
 			(effects
 				(font
@@ -502,7 +522,7 @@
 			)
 		)
 		(pin "UART0_TX" input
-			(at 119.38 67.31 180)
+			(at 163.83 67.31 180)
 			(uuid "062342bd-3a5c-46e2-b3b5-074139f21821")
 			(effects
 				(font
@@ -535,7 +555,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "569bb22a-7460-4731-a9ed-e69f5a8754d0")
-		(property "Sheetname" "USB Input Isolation"
+		(property "Sheetname" "USB Input Protection & Filter"
 			(at 38.1 60.2484 0)
 			(effects
 				(font
@@ -544,7 +564,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "USB_input_isolation.kicad_sch"
+		(property "Sheetfile" "USB_input_protection.kicad_sch"
 			(at 38.1 95.8346 0)
 			(effects
 				(font
@@ -553,9 +573,9 @@
 				(justify left top)
 			)
 		)
-		(pin "USB_D-" bidirectional
-			(at 73.66 67.31 0)
-			(uuid "4f47ca65-328e-4184-af0e-ff1061de3de5")
+		(pin "USB_HOST_D-" bidirectional
+			(at 73.66 66.04 0)
+			(uuid "b38e1c48-fb90-4d07-bef8-a8bb82115c79")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -563,9 +583,9 @@
 				(justify right)
 			)
 		)
-		(pin "USB_D+" bidirectional
-			(at 73.66 64.77 0)
-			(uuid "89761fa5-f7db-4752-b7e7-5d957757dcc2")
+		(pin "USB_HOST_D+" bidirectional
+			(at 73.66 63.5 0)
+			(uuid "806470d6-bd89-43c1-939a-ce351641d5cd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -582,7 +602,89 @@
 		)
 	)
 	(sheet
-		(at 80.01 60.96)
+		(at 81.28 60.96)
+		(size 38.1 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "98dc5807-a780-4e3c-be98-3abb9b7240a0")
+		(property "Sheetname" "Galvanic Isolation"
+			(at 81.28 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "galvanic_isolation.kicad_sch"
+			(at 81.28 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_HOST_D-" bidirectional
+			(at 81.28 66.04 180)
+			(uuid "bfc2f263-5838-413d-98cc-da5bfd21bd75")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_HOST_D+" bidirectional
+			(at 81.28 63.5 180)
+			(uuid "60274999-e1fe-4935-ad43-d81a6b29ac0d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_D-" bidirectional
+			(at 119.38 66.04 0)
+			(uuid "e63a29f2-f597-4e09-9aed-4dd3e7a5b123")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D+" bidirectional
+			(at 119.38 63.5 0)
+			(uuid "49607945-f767-49cd-9aad-c74f115e72ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "isolated_rp2040_debugger"
+				(path "/accec76c-f5c4-4bf8-be45-530a8e5bdaad"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 124.46 60.96)
 		(size 33.02 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -598,7 +700,7 @@
 		)
 		(uuid "c9eff9d2-4793-498a-8820-0e5ea36b409b")
 		(property "Sheetname" "RP2040"
-			(at 80.01 60.2484 0)
+			(at 124.46 60.2484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -607,7 +709,7 @@
 			)
 		)
 		(property "Sheetfile" "RP2040.kicad_sch"
-			(at 80.01 95.8346 0)
+			(at 124.46 95.8346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -616,7 +718,7 @@
 			)
 		)
 		(pin "USB_D+" bidirectional
-			(at 80.01 64.77 180)
+			(at 124.46 63.5 180)
 			(uuid "e9aceb79-df91-45c7-8b42-f39028697ca7")
 			(effects
 				(font
@@ -626,7 +728,7 @@
 			)
 		)
 		(pin "UART0_RX" input
-			(at 113.03 64.77 0)
+			(at 157.48 64.77 0)
 			(uuid "0e4471a9-ae75-4729-bff6-40d6a53b81e5")
 			(effects
 				(font
@@ -636,7 +738,7 @@
 			)
 		)
 		(pin "GPIO14" bidirectional
-			(at 113.03 69.85 0)
+			(at 157.48 69.85 0)
 			(uuid "c7ad7353-6500-44be-9376-528d0e3bc656")
 			(effects
 				(font
@@ -646,7 +748,7 @@
 			)
 		)
 		(pin "GPIO6" bidirectional
-			(at 113.03 80.01 0)
+			(at 157.48 80.01 0)
 			(uuid "6038840b-c14f-41b7-a221-074bf187011d")
 			(effects
 				(font
@@ -656,7 +758,7 @@
 			)
 		)
 		(pin "UART0_TX" output
-			(at 113.03 67.31 0)
+			(at 157.48 67.31 0)
 			(uuid "1f9ecf66-5f0e-49b9-8332-91fb8e5dd046")
 			(effects
 				(font
@@ -666,7 +768,7 @@
 			)
 		)
 		(pin "USB_D-" bidirectional
-			(at 80.01 67.31 180)
+			(at 124.46 66.04 180)
 			(uuid "dae9c076-0eb3-4249-933a-68f05b004ba4")
 			(effects
 				(font
@@ -676,7 +778,7 @@
 			)
 		)
 		(pin "UART1_RX" input
-			(at 113.03 74.93 0)
+			(at 157.48 74.93 0)
 			(uuid "9cb563d3-b332-4d66-aa52-64bca889a603")
 			(effects
 				(font
@@ -686,8 +788,18 @@
 			)
 		)
 		(pin "UART1_TX" output
-			(at 113.03 77.47 0)
+			(at 157.48 77.47 0)
 			(uuid "5938e99b-5b6e-406c-871a-89999ba2f4e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TGT_RST" output
+			(at 157.48 82.55 0)
+			(uuid "2e1313e8-f9bb-4e67-baa7-5fbaf96c2e6c")
 			(effects
 				(font
 					(size 1.27 1.27)

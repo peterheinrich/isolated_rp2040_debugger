@@ -2746,6 +2746,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 76.2) (xy 194.31 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e058a4b-69ca-423e-b09b-6b8c1180f891")
+	)
+	(wire
+		(pts
 			(xy 99.06 41.91) (xy 99.06 45.72)
 		)
 		(stroke
@@ -3772,6 +3782,17 @@
 		)
 		(uuid "a42d929c-6dce-4fbf-b171-a308e424453f")
 	)
+	(hierarchical_label "TGT_RST"
+		(shape output)
+		(at 194.31 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aff0d441-bdc2-4491-9cfa-f59f3670a662")
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 74.93 137.16 90)
@@ -3912,7 +3933,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "22"
 			(at 102.87 99.06 90)
 			(effects
 				(font
@@ -3983,7 +4004,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" "C1203"
 			(at 102.87 99.06 90)
 			(effects
 				(font
@@ -3992,7 +4013,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN_LCSC" "0603WAF1001T5E"
+		(property "MPN_LCSC" "0603WAJ0220T5E"
 			(at 102.87 99.06 90)
 			(effects
 				(font
@@ -6047,7 +6068,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "22"
 			(at 102.87 96.52 90)
 			(effects
 				(font
@@ -6118,7 +6139,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" "C1203"
 			(at 102.87 96.52 90)
 			(effects
 				(font
@@ -6127,7 +6148,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN_LCSC" "0603WAF1001T5E"
+		(property "MPN_LCSC" "0603WAJ0220T5E"
 			(at 102.87 96.52 90)
 			(effects
 				(font
